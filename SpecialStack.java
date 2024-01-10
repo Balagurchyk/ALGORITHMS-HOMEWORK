@@ -2,6 +2,13 @@ package com.proftelran.org.algorithms;
 
 import java.util.Stack;
 
+        /*Задача getMin().
+        Реализовать структуру данных SpecialStack, которая поддерживает все операции со стеком, 
+        такие как push(), pop(), isEmpty(), … и дополнительную операцию getMin(), которая должна 
+        возвращать минимальный элемент из SpecialStack.
+        Все эти операции SpecialStack должны быть O(1). Пространство O(n)
+        Чтобы реализовать SpecialStack, используйте структуру данных Stack, реализованную ранее в классе.*/
+
 public class SpecialStack {
 
     private Stack<Integer> mainStack;
